@@ -1,18 +1,55 @@
+# ProgramNilai
+
+## Description
+
+ProgramNilai is a simple Java application that calculates the final grade for a course on Object-Oriented Programming. Users can input their name, student ID (NIM), and various assignment and exam scores. The program then calculates the total grade based on predefined weightings.
+
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+To run this program locally, you need to have Java installed. You can follow these steps:
 
-## Folder Structure
+1. Clone the repository to your local machine:
 
-The workspace contains two folders by default, where:
+   ```bash
+   git clone https://github.com/your-username/ProgramNilai.git
+   cd ProgramNilai
+2. Compile the Java source file:
+   ```bash
+   javac ProgramNilai.java
+3. Run the program:
+   ```bash
+   java ProgramNilai
+5. Follow the on-screen prompts to input your data and calculate the final grade.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Usage
+Upon running the program, you will be prompted to input your name, NIM (Student ID), and various assignment and exam scores.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+ The program will calculate the final grade using the following weightings:
+- Tugas Besar (30%)
+- Quiz (10%)
+- Tugas (10%)
+- UTS (25%)
+- UAS (25%)
+  
+The final grade will be displayed on the screen.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Example
 
-## Dependency Management
+Selamat Datang Di Program Nilai
+Silahkan lengkapi data yang dibutuhkan di bawah ini.
+Nama: John Doe
+Nim: 123456789
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Silahkan masukkan nilai yang tertera di bawah ini.
+Nilai Tugas Besar: 90
+Nilai Quiz: 85
+Nilai Tugas: 95
+Nilai UTS: 80
+Nilai UAS: 88
+
+Nama: John Doe
+Nim: 123456789
+Nilai Matakuliah Pemrograman Berorientasi Objek: 88.5
+
+## License
+This project is open-source and available under the MIT License. See the LICENSE file for details.
